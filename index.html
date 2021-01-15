@@ -54,97 +54,6 @@
             transform: rotateY(180deg);
         }
 
-        .light-modal {
-            --lm-body-bg: #fff;
-            --lm-modal-bg: #000;
-            --lm-close-bg: #f93154;
-            --lm-small-modal: 30vw;
-            --lm-large-modal: 50vw;
-            --lm-font-size: 14px;
-            display: none;
-            position: fixed;
-            background: #000;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            align-items: center;
-            justify-content: center;
-            right: 0;
-            z-index: 2;
-            transition: background 1s;
-            font-size: var(--lm-font-size);
-            visibility: hidden
-        }
-
-        .light-modal-content {
-            background: var(--lm-body-bg);
-            color: #fff;
-            width: var(--lm-small-modal);
-            border-radius: .2em;
-            position: relative;
-            max-height: calc(100vh - 200px);
-            line-height: 1.4;
-            display: flex;
-            flex-direction: column
-        }
-
-        .light-modal-content img {
-            max-width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            max-height: auto;
-            border-radius: .2em
-        }
-
-        .light-modal-close-icon {
-            text-decoration: none;
-            color: #fff;
-            padding: 5px 10px;
-            border-radius: .2em;
-            background: var(--lm-close-bg);
-            font-size: 1.5em;
-            line-height: 1
-        }
-
-        .light-modal-close-icon:hover {
-            color: #fff
-        }
-
-        .light-modal-close-icon {
-            position: absolute;
-            top: -15px;
-            right: -15px;
-            color: #fff
-        }
-
-        .light-modal-caption {
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            top: 100%;
-            padding: 10px 0;
-            background: #262626;
-            border-radius: .2em;
-            width: 100%;
-            text-align: center;
-            margin-top: 5px;
-            border-color: #fff;
-            border-style: solid
-        }
-
-        .light-modal:target {
-            background: #212121;
-            display: flex;
-            visibility: visible
-        }
-
-        @media (max-width:1000px) {
-            .light-modal {
-                --lm-small-modal: 70vw;
-                --lm-large-modal: 70vw
-            }
-        }
-
         .html {
             min-height: 100vh
         }
@@ -743,8 +652,7 @@
                                     </svg>
                                 <div class="float-right">@chris1000</div>
                             </a></div>
-                        <div class="card-footer"><button type="button" class="btn flipit btn-dark">Portfolio</button> <a
-                                href="#share" class="btn btn-dark float-right">Share</a></div>
+                        <div class="card-footer"><button type="button" class="btn flipit btn-dark">Portfolio</button></div>
                     </div>
                 </div>
             </div>
@@ -768,17 +676,9 @@
                                 rel="noreferrer" class="list-group-item list-group-item-action"
                                 href="https://www.morelifeconsulting.net/">Morelife Consulting</a></div>
                         <div class="card-footer"><button type="button" class="btn flipit btn-dark">Contact Info</button>
-                            <a href="#share" class="btn btn-dark float-right">Share</a></div>
+                            </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="light-modal" id="share" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
-            <div class="light-modal-content"><img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                    data-src="https://cdn.statically.io/img/www.clevine.net/img/qrcode.png?quality=80&f=auto"
-                    alt="QR Code for Quick Share"> <a href="#/" class="light-modal-close-icon" aria-label="close">X</a>
-                <div class="light-modal-caption">Open your camera application and select the rear-facing camera; lastly,
-                    point your device at the QR code and wait for the notification prompt.</div>
             </div>
         </div>
         <script>
