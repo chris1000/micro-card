@@ -3,6 +3,8 @@ Personal business card/ portfolio site designed to be as fast and userfriendly a
 
 Built with:
 * Bootstrap 5
-* Statically (for on the fly image compression and delivery)
+* CloudFlare pages for instant loading/ edge caching
 * CloudFlare for Caching and automated minification
 * ImprovMX for email aliasing
+* Service Worker for offline access after first load
+* Gulp for automated inlining/ minification
