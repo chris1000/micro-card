@@ -5,4 +5,4 @@ Built with:
 * Bootstrap 5
 * CloudFlare pages for instant loading/ edge caching
 * CloudFlare for Caching and automated minification
-* ImprovMX for email aliasing
+* instant.page for quickly loading external resources
