@@ -1,8 +1,8 @@
-# buisness-card
-Personal business card/ portfolio site designed to be as fast and userfriendly as possible while adapting a simple/ responsive design for overall user-friendliness. 
+# Micro-Card
 
-Built with:
-* Bootstrap 5
-* CloudFlare pages for instant loading/ edge caching
-* CloudFlare for Caching and automated minification
-* instant.page for quickly loading external resources
+A blazing fast micro business card meant for quickly and easily sharing contact information. Built using simple HTML, CSS and JS and hosted through CloudFlare Pages for the fastest possible experience for end users.
+
+## Recommended setup
+* CloudFlare Pages - Free hosting
+* CloudFlare CDN - Free plan/ set to Cache Everything (could also use Statically for on the fly image compression)
+* Google Domains - $12 domain
