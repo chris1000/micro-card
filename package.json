@@ -1,0 +1,33 @@
+{
+  "name": "micro-card",
+  "version": "1.0.0",
+  "description": "A ultra-fast micro virtual business card.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris1000/micro-card.git"
+  },
+  "keywords": [
+    "micro-site",
+    "business",
+    "card",
+    "virtual",
+    "business",
+    "card",
+    "portfolio"
+  ],
+  "author": "Chris Levine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris1000/micro-card/issues"
+  },
+  "homepage": "https://github.com/chris1000/micro-card#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-minify-inline": "^1.1.0",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
